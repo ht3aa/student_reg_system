@@ -1,6 +1,6 @@
 # Studnets Management System
 ---
-An integrated performance and quality students management system for Imam Al-Kadhim College, Dhi Qar departments.
+An integrated performance and quality students management system for Imam Al-Kadhim College, Dhi Qar departments.<strong>You can navigate throw the branches to see the rest of the code.</strong>
 
 
 ## Features
