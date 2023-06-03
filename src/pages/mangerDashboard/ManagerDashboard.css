@@ -1,0 +1,47 @@
+.dashboard {
+    width: 100%;
+    padding: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(101.55deg, #E4E4E4 -2.2%, rgba(239, 239, 239, 0.122494) 101.7%, rgba(255, 225, 225, 0.118076) 101.71%, rgba(255, 228, 228, 0.104167) 101.72%, rgba(255, 255, 255, 0) 101.73%, #FFFFFF 101.73%);
+}
+.dashboard table {
+    width: 80%;
+
+    text-align: center;
+    margin-bottom: 100px;
+}
+.dashboard table tbody td {
+    width: max-content;
+    padding-top: 20px;
+}
+.dashboard table button {
+    background-color: var(--accent-color1);
+}
+.dashboard table button:hover,
+.dashboard table button:focus {
+    background-color: #aa0101;
+}
+.dashboard button:nth-child(2) {
+    background-color: white;
+}
+
+@media only screen and (max-width: 1110px) {
+    .dashboard {
+        padding: 200px 100px;
+    }
+}
+.blueAdmin button {
+    background-color: var(--createButton-color);
+}
+.blueAdmin button:hover,
+.blueAdmin button:focus {
+    background-color: #0d4abd;
+}
+.dashboard .buttonGroup {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

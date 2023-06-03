@@ -1,0 +1,30 @@
+.notificationBox {
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    z-index: 200; 
+    color: white;
+}
+
+.notificationBox label {
+    font-weight: bold;
+}
+
+.show {
+    top: 80px;
+}
+
+.notificationBox img {
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

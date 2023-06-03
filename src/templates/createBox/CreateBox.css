@@ -1,0 +1,43 @@
+/* createBox style is in the data header component */
+
+
+.createBox h2 {
+    font-weight: normal;
+}
+
+
+.createBox h5 {
+    width: max-content;
+    padding: 0 10px;
+    margin: 100px auto;
+    border-bottom: 1px solid black;
+}
+.createBox button {
+    margin-top: 20px;
+    background-color: var(--createButton-color);
+}
+.createBox button:hover,
+.createBox button:focus {
+    background-color: #1050c7;
+}
+.createBox button h5 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-weight: normal;
+}
+.title {
+    margin-top: 50px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--text-color);
+}
+
+.randomName {
+    margin-top: 15px;
+    cursor: pointer;
+}
+.randomName:hover,
+.randomName:focus {
+    text-decoration: underline;
+}

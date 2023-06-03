@@ -1,0 +1,9 @@
+.error404 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--accent-color1);
+    background-color: var(--mainDark-color);
+}

@@ -1,0 +1,58 @@
+.homeHero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    border-bottom: 2px solid black;
+    background: linear-gradient(101.55deg, #E4E4E4 -2.2%, rgba(239, 239, 239, 0.122494) 101.7%, rgba(255, 225, 225, 0.118076) 101.71%, rgba(255, 228, 228, 0.104167) 101.72%, rgba(255, 255, 255, 0) 101.73%, #FFFFFF 101.73%);
+}
+
+
+.mainContent {
+    width: 40%;
+}
+
+
+.crud {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.mainContent {
+    color: var(--text-color);
+    padding-top: 104px;
+}
+.mainContent h1 {
+    margin-bottom: 1.5rem;
+}
+.mainContent h4 {
+    font-weight: normal;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .homeHero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainContent {
+        text-align: center;
+        padding-top: 50px;
+        width: 80%;
+    }
+    .crud {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .crud {
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+.cardData {
+    padding: 8px 10px 8px 40px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out;
+}
+.cardData img {
+    width: 100%;
+    height: 100%;
+}
+.cardData .icon {
+    position: absolute;
+    right: 0;
+    top: 0%;
+    font-size: 1rem;
+    transform: translateY(-25px);
+    cursor: pointer;
+    color: black;
+}
+.cardData h4 {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    border-bottom: none;
+}
+.cardData .sideColor {
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cardData .sideImg {
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    left: -40px;
+    top: 0;
+}
+.cardData:hover, 
+.cardData:focus {
+    box-shadow: none;
+}
+
+
+.fakeCardData {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

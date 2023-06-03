@@ -1,0 +1,40 @@
+.student-bg {
+    padding: 50px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.studentImgContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.studentImgContainer a {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentImgContainer img {
+    width: 80%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.studentInfoCotainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.studentInfoCotainer h4 {
+    margin-bottom: 20px;
+}

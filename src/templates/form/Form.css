@@ -1,0 +1,150 @@
+.formTemplate {
+    padding-top: 16px;
+    position: relative;
+}
+#close {
+    position: absolute;
+    right: 1.5rem;
+    cursor: pointer;
+}
+.formTemplate i {
+    color: rgb(105, 105, 105);
+}
+
+.formTemplate h3, .formTemplate p {
+    flex: 0 0 100%;
+    padding-left: 16px;
+}
+.formTemplate p {
+    margin: 0.25rem 0 3.125rem 0;
+}
+.formTemplate .container {
+    padding: 0px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.formTemplate .inputContainer  {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formTemplate .inputContainer p {
+    color: gray;
+    margin-bottom: 6px;
+    padding: 0;
+}
+.formTemplate .inputContainer input,
+.formTemplate .inputContainer select {
+    width: 300px;
+    background-color: white;   
+    border-bottom: 2px solid #8D8D8D; 
+    margin: 0;
+}    
+
+.formTemplate .videoInput input, 
+.formTemplate .videoInput button {
+    display: inline-block;
+}
+.formTemplate .videoInput input {
+    width: 255px;
+}
+.formTemplate .videoInput button {
+    border: none;
+    color: white;
+    background-color: var(--createButton-color);
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.formTemplate .videoInput ul li,
+.formTemplate .fileInput ul li {
+    margin-top: 20px;
+    background-color: #E0E0E0;
+    padding: 11px 20px;
+    
+}
+.formTemplate .videoInput ul li p,
+.formTemplate .fileInput ul li p {
+    width: max-content;
+    color: black;
+    margin: 0;
+}
+
+.formTemplate .fileInput  {
+    width: 300px;
+}
+.formTemplate .fileInput label{
+  display: inline-block;
+  background-color: var(--createButton-color);
+  color: white;
+  padding: 12px 45px 12px 12px;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.formTemplate .fileInput label p {
+    color: white;
+}
+
+.formTemplate .selectInput select {
+    cursor: pointer;
+}
+
+.formTemplate .selectInput select,
+.formTemplate .selectNumber input {
+    background-color: transparent;
+}
+
+.formTemplate .colorInput input {
+    padding: 0;
+    height: 40px;
+    background-color: transparent;
+    border: none;   
+}    
+
+
+@media only screen and (max-width: 657px) {
+    .formTemplate .container .inputContainer{
+        width: 100%;
+    }        
+    .formTemplate .inputsContainer .videoInput {
+        width: 100%;
+    }    
+    .formTemplate .inputContainer input,
+    .formTemplate .inputContainer select{
+        width: 100%;
+    }        
+    .formTemplate .videoInput input {
+        width: 80%;
+    }    
+}        
+
+.formTemplate .buttonGroup {
+    margin-top: 40px;
+    flex: 0 0 100%;
+    display: flex;
+    font-family: var(--font-family);
+}
+.formTemplate .buttonGroup button {
+    flex: 0 0 50%;
+    border: none;
+    color: white;
+    text-align: start;
+    padding: 20px 64px 31px 16px;
+    font-size: 1rem;
+}
+.formTemplate .buttonGroup button:nth-child(1) {
+    background-color: #393939;
+}
+
+#upload {
+    display: none;
+}
+#upload2 {
+    display: none;
+}
